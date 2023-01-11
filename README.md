@@ -4,8 +4,7 @@
 This repository contains the code for the project Polar Express, from the course in Machine Learning of the Computer Science faculty of UNIBO.
 
 ------------------
-
-The aim of the project is as follows: </br>
+### Aim of the project
 
 The purpose of the project is to learn the mapping from polar coordinates to a a discrete 10x10 grid of cells in the plane, using a neural network. 
 The supervised dataset is given in the form of a generator (to be considered as a **black box**).
@@ -15,7 +14,7 @@ The model must achieve an **accuracy of 95%**, and it will be evaluated in a way
 **WARNING**: *Any solution taking advantage of meta-knowledge about the generator will be automatically rejected*.
 
 ------------------
-
+### Generator
 Here is the generator. It returns triples of the form ```((theta,rho),out)``` where ```(theta,rho)``` are the polar coordinates of a point in the first quadrant of the plane, and ```out``` is a 10x10 map with "1" in the cell corresponding to the point position, and "0" everywhere else.
 By setting flat=True, the resulting map is flattened into a vector with a single dimension 100. *You can use this variant, if you wish*.
 
