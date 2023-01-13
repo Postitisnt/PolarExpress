@@ -8,7 +8,7 @@ In SAVED_MODELS you can find the best model obtained in the form of a Jupyter No
 
 The final model has 322 parameters, which is a pretty good result, in particular knowing that the model could hardly decrease its parameters, sicne the aim is to produce predictions on a 100-values array.
 
-![The three layers of the model](https://raw.githubusercontent.com/Postitisnt/polar_express/main/img/polar_express.jpeg?token=GHSAT0AAAAAAB24VLR2INRPDLTFZWJHHIZYY6BX62A)
+![The three layers of the model](https://raw.githubusercontent.com/Postitisnt/polar_express/main/img/polar_express.jpeg?token=GHSAT0AAAAAAB24VLR2INRPDLTFZWJHHIZYY6BX62A)*The three dense layers of the model looking at the input*
 
 ------------------
 ### Aim of the project
