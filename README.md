@@ -4,7 +4,9 @@
 This repository contains the code for the project Polar Express, from the course in Machine Learning of the Computer Science faculty of UNIBO.
 
 In TEST_MODELS you can find some Jupyter Notebooks used to test the model.
-In SAVED_MODELS you can find the best model obtained in the form of a Jupyter Notebook (according to the specifications of the project), and also some saved checkpoints.
+In SAVED_MODELS you can find the best model obtained in the form of a Jupyter Notebook (according to the specifications of the project), and also some saved checkpoints from other models.
+
+The final model has 322 parameters, which is a pretty good result, in particular knowing that the model could hardly decrease its parameters, sicne the aim is to produce predictions on a 100-values array.
 
 ------------------
 ### Aim of the project
